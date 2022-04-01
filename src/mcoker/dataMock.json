@@ -1,0 +1,20 @@
+[
+    {   "X": null,
+        "Filing Date": null,
+        "Trade Date": null,
+        "Ticker": null,
+        "Company Name": null,
+        "Industry": null,
+        "Ins":null,
+        "Trade Type": null,
+        "Price": null,
+        "Qty": null,
+        "Owned": null,
+        "ΔOwn": null,
+        "Value": null,
+        "1d": null,
+        "1w": null,
+        "1m": null,
+        "6m" : null
+    }
+]
