@@ -1,11 +1,13 @@
 import './App.css';
-import Exractor from './components/footer'
+import Extractor from './components/Extractor'
+import Conv from './components/csvToJSON'
 
 function App() {
 
   
   return (
     <div className="App">
+      <Conv/>
       <Extractor />
     </div>
   );
