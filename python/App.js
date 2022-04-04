@@ -53,7 +53,8 @@ for (let i = 1; i < array.length - 1; i++) {
  
   // Split the string using pipe delimiter |
   // and store the values in a properties array
-  let properties = s.split(",")
+  let properties = s.split(",", 12)
+  console.log(properties)
   
   // For each header, if the value contains
   // multiple comma separated data, then we
