@@ -1,7 +1,7 @@
 // Reading the file using default
 // fs npm package
 const fs = require("fs");
-csv = fs.readFileSync("sec4trades.csv")
+csv = fs.readFileSync("tradeProcessedCSV_2.csv")
  
 // Convert the data to String and
 // split it in an array
@@ -53,8 +53,8 @@ for (let i = 1; i < array.length - 1; i++) {
  
   // Split the string using pipe delimiter |
   // and store the values in a properties array
-  let properties = s.split(",", 12)
-  console.log(properties)
+  let properties = s.split(",")
+  //console.log(properties)
   
   // For each header, if the value contains
   // multiple comma separated data, then we
@@ -76,4 +76,4 @@ for (let i = 1; i < array.length - 1; i++) {
 // Convert the resultant array to json and
 // generate the JSON output file.
 let json = JSON.stringify(result);
-fs.writeFileSync('output.json', json);
+fs.writeFileSync('output_2.json', json);
