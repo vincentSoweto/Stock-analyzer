@@ -28,16 +28,16 @@ module.exports = (sequelize, Sequelize) => {
             type: Sequelize.REAL
         },
         Qty:{
-            type: Sequelize.REAL
+            type: Sequelize.BIGINT
         },
         Owned:{
-            type: Sequelize.REAL
+            type: Sequelize.BIGINT
         },
         ΔOwn:{
-            type: Sequelize.REAL
+            type: Sequelize.BIGINT
         },
         Value:{
-            type: Sequelize.REAL
+            type: Sequelize.BIGINT
         }
     });
     return Stocks;

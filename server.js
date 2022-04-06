@@ -7,6 +7,11 @@ var corsOptions = {
   origin: "http://localhost:8081"
 };
 
+// You can see that we use a controller from /controllers/tutorial.controller.js.
+// We also need to include routes in server.js (right before app.listen()):
+require("./app/routes/stockanalyzer.routes")(app);
+
+
 app.use(cors(corsOptions));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}));

@@ -1,16 +1,24 @@
-import './App.css';
-import Extractor from './components/Extractor'
-import Conv from './components/csvToJSON'
 
-function App() {
+import React, { Component} from "react"
+import Extractor from './components/Extractor';
+import Conv from './components/csvToJSON';
+import "bootstrap/dist/css/bootstrap.min.css";
 
+class App extends Component {
+
+  constructor(){
+
+  }
   
-  return (
-    <div className="App">
-      <Conv/>
-      <Extractor />
-    </div>
-  );
+  render(){
+    return (
+      <div>
+        <nav className="navbar navbar-expand navbar-dark bg-dark">
+          
+        </nav>
+      </div>
+    )
+  };
 }
 
 export default App;
